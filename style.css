@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+nav {
+  height: 30px;
+  background-color: #537593;
+  display: flex;
+  align-items: center;
+}
+nav p {
+  color: white;
+  margin-left: 40px;
+  font-size: 14px;
+}
+nav p a {
+  color: white;
+  text-decoration: underline;
+}
+nav p a:hover{
+  text-decoration: none;
+}
+#sectionA {
+  height: 173px;
+  padding: 0 30px;
+  border-bottom: 1px solid #CCCCCC;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+#A-box1 {
+  height: 128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#A-box2 {
+  height: 45px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+#logo{
+  display: block;
+  width: auto;
+  height: 80px;
+}
+#us{
+  width: 29px;
+  height: 21px;
+}
+#euro{
+  width: 25px;
+  height: 17px;
+}
+#links{
+  display: flex;
+  gap: 27px;
+}
+input{
+  width: 215px;
+  height: 40px;
+  padding: 10px;
+  margin-left: 150px;
+  border: 1px solid #CCCCCC;
+  margin-right: 20px;
+}
+#input{
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+.fa-phone{
+  font-size: 17px;
+  color: #00294B;
+}
+.text-color1{
+  color: black;
+}
+.icon-color{
+  font-size: 23px;
+  color: #00294B;
+}
+.fa-magnifying-glass{
+  position: relative;
+  left: 350px;
+}
+.style{
+  font-size: 18px;
+  color: black;
+}
+.hover-color:hover{
+  color:#537593;
+}
+#sectionB img{
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+.caps{
+  width: 250px;
+  height: auto;
+}
+.gallery-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#sectionC{
+  margin: 30px auto;
+  width: 90vw;
+  height: 60vh;
+  display: flex;
+  gap: 75px;
+ overflow-x: scroll;
+}
+.cap-name{
+  font-weight: 700;
+}
+.cap-name:hover{
+  color: #537593;
+  cursor: pointer;
+}
+.current{
+  color: red;
+}
+.image-cont{
+  height: 500px;
+  width: 400px;
+  background-color: aqua;
+}
+#sectionD{
+  padding: 0 60px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+#back-img1{
+  background-image: url(img/portrait-afro-young-man-standing-balcony-holding-yellow-coffee-cup-hand_23-2148123893.jpg);
+  background-size: cover;
+}
+#back-img2{
+  background-image: url(img/portrait-pensive-modern-afro-man-with-sunglasses-mobile-phone-glass-building-background_613910-21676.jpg);
+  background-size: cover;
+}
+.button{
+  height: 60px;
+  width: 160px;
+  margin-top: 20px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 20px;
+  font-family: inherit;
+}
+.button:hover{
+  background-color: #CCCCCC;
+}
+.final{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
